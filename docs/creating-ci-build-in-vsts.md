@@ -40,8 +40,12 @@ the page.
 **9.** Select the **Shell Script** task and fill in the input values
 with the following:
 
-Script Path:	build-push-docker-image.sh
-Arguments:		$(username) $(password) $(email) $(username)/$(repository) $(tag)
+**Script Path:**	build-push-docker-image.sh
+
+**Arguments:**		$(username) $(password) $(email) $(username)/$(repository) $(tag)
+
+
+The arguments here will be passed to the shell script.
 
 
 ![](<media/shell-script-task.PNG>)
